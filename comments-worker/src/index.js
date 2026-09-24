@@ -243,7 +243,7 @@ async function sendEmailBatch(env, emails) {
 		body: JSON.stringify(emails),
 	});
 	let body = null;
-	try { body = await res.json(); } catch {}
+	try { body = await res.json(); } catch { /* non-JSON body */ }
 	return { ok: res.ok, status: res.status, body };
 }
 
