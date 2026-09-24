@@ -7,8 +7,8 @@
 # On existential dread
 
 <figure>
-<img src="/img/post/existential-dread/lotus-kazumasa-ogawa.jpeg" alt="lotus flower painting by Ogawa Kazumasa"/>
-<figcaption>My therapists courtyard</figcaption>
+<img src="/img/post/existential-dread/lotus-kazumasa-ogawa.jpeg" alt="lotus flower painting by Ogawa Kazumasa" width="400"/>
+<figcaption>Lotus by Ogawa Kazumasa</figcaption>
 </figure>
 
 I'm almost at the end of my studies now and have to start figuring out where I fit into the world. Like everyone, I want to find some corner where I can find fulfillment in my job, and ideally, I'd love to be part of the solution. However, me and my generation are coming to an age where we are taking the baton over from the ones who came before us, and we are not happy with what we're being handed. As [Katharine Viner](https://www.theguardian.com/media/ng-interactive/2026/may/06/how-to-survive-the-information-crisis-we-once-talked-about-fake-news-now-reality-itself-feels-fake) very well summarized, we have extremism, the environmental crisis, the information crisis, the loneliness epidemic, fascism, war, capitalism, [AI](https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us), inequality, and many more issues being left to us to deal with. We weren't old enough to profit from these issues and too old to be able to ignore them.
@@ -24,7 +24,7 @@ So where does that leave us? How are we supposed to move forward?
 ---
 
 <figure>
-<img src="/img/post/existential-dread/nyon-flower.jpg" alt="picture of a flower"/>
+<img src="/img/post/existential-dread/nyon-flower.jpg" alt="picture of a flower" width="400"/>
 <figcaption>Picture I took inspired by the above painting</figcaption>
 </figure>
 
