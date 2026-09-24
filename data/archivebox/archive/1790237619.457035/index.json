@@ -1,0 +1,338 @@
+{
+    "archive_path": "archive/1790237619.457035",
+    "base_url": "betsyhartmann.com/books/the-america-syndrome",
+    "basename": "",
+    "bookmarked_date": "2026-09-24 08:13",
+    "canonical": {
+        "archive_org_path": "https://web.archive.org/web/betsyhartmann.com/books/the-america-syndrome",
+        "dom_path": "output.html",
+        "favicon_path": "favicon.ico",
+        "git_path": "git/",
+        "google_favicon_path": "https://www.google.com/s2/favicons?domain=betsyhartmann.com",
+        "headers_path": "headers.json",
+        "htmltotext_path": "htmltotext.txt",
+        "index_path": "index.html",
+        "media_path": "media/",
+        "mercury_path": "mercury/content.html",
+        "pdf_path": "output.pdf",
+        "readability_path": "readability/content.html",
+        "screenshot_path": "screenshot.png",
+        "singlefile_path": "singlefile.html",
+        "warc_path": "warc/",
+        "wget_path": "betsyhartmann.com/books/the-america-syndrome/index.html"
+    },
+    "domain": "betsyhartmann.com",
+    "extension": "",
+    "hash": "16TBVV1673QJTTXECN9G",
+    "history": {
+        "archive_org": [
+            {
+                "cmd": [
+                    "curl",
+                    "--silent",
+                    "--location",
+                    "--compressed",
+                    "--head",
+                    "--max-time",
+                    "60",
+                    "--user-agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) curl/curl 8.7.1 (x86_64-apple-darwin25.0)",
+                    "https://web.archive.org/save/https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "curl 8.7.1 (x86_64-apple-darwin25.0)",
+                "end_ts": "2026-09-24T08:19:05.454048+00:00",
+                "index_texts": null,
+                "output": "ArchiveError: Failed to find \"content-location\" URL header in Archive.org response.",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:58.592642+00:00",
+                "status": "failed"
+            }
+        ],
+        "dom": [
+            {
+                "cmd": [
+                    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "--headless=new",
+                    "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)",
+                    "--window-size=1440,2000",
+                    "--dump-dom",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "Google Chrome 153.0.8010.53",
+                "end_ts": "2026-09-24T08:18:48.850923+00:00",
+                "index_texts": null,
+                "output": "output.html",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:44.782776+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "favicon": [
+            {
+                "cmd": [
+                    "curl",
+                    "--silent",
+                    "--location",
+                    "--compressed",
+                    "--max-time",
+                    "60",
+                    "--output",
+                    "favicon.ico",
+                    "--user-agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) curl/curl 8.7.1 (x86_64-apple-darwin25.0)",
+                    "https://www.google.com/s2/favicons?domain=betsyhartmann.com"
+                ],
+                "cmd_version": "curl 8.7.1 (x86_64-apple-darwin25.0)",
+                "end_ts": "2026-09-24T08:18:26.778467+00:00",
+                "index_texts": null,
+                "output": "favicon.ico",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:26.510998+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "git": [],
+        "headers": [
+            {
+                "cmd": [
+                    "curl",
+                    "--silent",
+                    "--location",
+                    "--compressed",
+                    "--head",
+                    "--max-time",
+                    "60",
+                    "--user-agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) curl/curl 8.7.1 (x86_64-apple-darwin25.0)",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "curl 8.7.1 (x86_64-apple-darwin25.0)",
+                "end_ts": "2026-09-24T08:18:28.864747+00:00",
+                "index_texts": null,
+                "output": "headers.json",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:26.780784+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "htmltotext": [],
+        "media": [
+            {
+                "cmd": [
+                    "yt-dlp",
+                    "--write-description",
+                    "--write-info-json",
+                    "--write-annotations",
+                    "--write-thumbnail",
+                    "--no-call-home",
+                    "--write-sub",
+                    "--write-auto-subs",
+                    "--convert-subs=srt",
+                    "--yes-playlist",
+                    "--continue",
+                    "--no-abort-on-error",
+                    "--ignore-errors",
+                    "--geo-bypass",
+                    "--add-metadata",
+                    "--format=(bv*+ba/b)[filesize<=750m][filesize_approx<=?750m]/(bv*+ba/b)",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "2026.03.17",
+                "end_ts": "2026-09-24T08:18:58.588568+00:00",
+                "index_texts": [],
+                "output": "media",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:56.802185+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "mercury": [
+            {
+                "cmd": [
+                    "/opt/homebrew/lib/node_modules/@postlight/parser/cli.js",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "1.0.0",
+                "end_ts": "2026-09-24T08:18:56.786427+00:00",
+                "index_texts": null,
+                "output": "mercury",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:54.694556+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "pdf": [
+            {
+                "cmd": [
+                    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "--headless=new",
+                    "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)",
+                    "--window-size=1440,2000",
+                    "--print-to-pdf",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "Google Chrome 153.0.8010.53",
+                "end_ts": "2026-09-24T08:18:40.440593+00:00",
+                "index_texts": null,
+                "output": "output.pdf",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:36.131488+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "readability": [
+            {
+                "cmd": [
+                    "/opt/homebrew/lib/node_modules/readability-extractor/readability-extractor",
+                    "/var/folders/5c/pl67hms52szcj9ppn2gb4gw00000gn/T/tmplymibprx",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "0.0.6",
+                "end_ts": "2026-09-24T08:18:54.692592+00:00",
+                "index_texts": [
+                    "The America Syndrome\n\n\n\nApocalypse, War, and Our Call to\u00a0Greatness\n\n\n\n\n\n\n\nSeven Stories Press, New York, hardback and Ebook 2017; paperback with new prologue 2019\n\n\n\nIn this thought-provoking, big-idea book,\u00a0Betsy\u00a0Hartmann\u00a0sheds light on a pervasive but\u2014until now\u2014invisible theme shaping the American mindset: apocalyptic thinking, or the belief that the end of the world is nigh. Tracing our nation\u2019s fixation with doomsday from the Puritans to the present, Hartmann makes a compelling case that apocalyptic fears are deeply intertwined with the American ethos, to our detriment.\n\n\n\nHartmann shows how apocalyptic thinking has historically contributed to some of our nation\u2019s biggest problems, such as inequality, permanent war, and the exploitation of natural resources. While it is tempting to view these problems as harbingers of the end times, this mindset constricts the collective imagination and precludes social change. The truth is that we have much more control over the future of our planet than we think, and our fatalism is much more dangerous than the apocalypse.\n\n\n\nIn\u00a0The America Syndrome, Hartmann seeks to reclaim human agency and, in so doing, revise the national narrative. By changing the way we think, we just might change the world.\n\n\n\n\n\n\n\n\n\n\nPraise for\u00a0The America Syndrome\n\n\n\nApocalypse, says Betsy Hartmann, is as American as apple pie. In an insightful, crisply written blend of memoir, social history, and political theory, Hartmann shows how the prospect of the imminent end of days has been used for centuries to justify almost any American action\u2014and feed the destructive conviction that this country has a special mission of salvation. Left and right, secular and religious\u2014Americans of every stripe have been infected with the virus of apocalypse. Hartmann shows why we badly need a cure.\n\n\n\n\n\n\n\nFrom its origins in Puritan thinking Betsy Hartmann traces the history of how fears of imminent disaster have shaped American thinking on war, population and most recently climate change, invoking fear and violence as responses when practical cooperation would serve so much better for dealing with all manner of social ills. As political therapy for troubled times this very timely volume shows that overcoming misplaced fear of the future is an essential step to seeking ways to live together peacefully in a rapidly changing world.\n\n\n\n\n\n\n\nBetsy Hartmann calmly eviscerates the prophets of apocalypse whether it be Malthusian doomsayers obsessed about brown-skinned immigrants with high birth rates or climate-change fearmongers\u2026Hartmann\u2019s book\u00a0is a timely debunking of anti-intellectualism in American life and of all those demagogues who have stoked American nativist paranoia.\u00a0The America Syndrome\u00a0explains the Age of Trump in the deepest cultural sense.\n\n\n\n\n\n\n\nThe \u2018America First\u2019 stance espoused by Donald Trump appears as little more than a pastiche of crowd-pleasing campaign tropes, but in fact draws on themes long embedded in American political thought. To guide us through this rich and momentous history, stretching from the Pilgrims\u2019 landing in Plymouth to the onset of climate change, there is no better account than Betsy Hartmann\u2019s\u00a0The America Syndrome.\n\n\n\n\n\n\n\nFor large swaths of the body politic, the December 2016 US elections offered up the prospect of a long and dark winter in America. Hartmann shows that catastrophist thinking has a deep history in the United States, which she traces from early Puritanism to utopian movements, Malthusianism, the Cold War, and more recently global climate change.\u00a0The America Syndrome\u00a0is a powerful reminder of how deep is the river of fear and apocalyptic thinking and how it works against important forms of solidarity and common humanity. A timely and provocative primer for the world that President Trump has wrought.\n\n\n\n\n\n\n\nBetsy Hartmann has written a compelling tragedy of the\u00a0American psyche that\u00a0is a fitting riposte to Trumpery. It\u2019s a\u00a0tragedy about a\u00a0country that lacks self-awareness, that\u00a0thinks itself special when it is \u2018not so special after all.\u2019 Militarists and apocalyptic environmentalists alike\u00a0are\u00a0caught up in this quagmire of exceptionalism, this tragedy of failed imperialism. Cut the hubris, America; it is your undoing.\n\n\n\n\n\n\n\nBased on meticulous research, Betsy Hartmann offers a desperately needed, incisive analysis of dystopian beliefs that undergird white supremacy in the U.S.\n\n\n\n\n\nReviews\n\n\n\nChris Lehmann, \u201cHow the Threat of Apocalypse Justifies American Empire,\u201d\u00a0In These Times, May 23, 2017.\n\n\n\nSteve Pfarrer, \u201cApocalyptic America: Hampshire College professor looks at the history of \u2018the end is nigh,\u2019\u201d\u00a0Daily Hampshire Gazette, May 10, 2017.\n\n\n\n\n\n\n\nExcerpts\n\n\n\nRead this\u00a0excerpt\u00a0about utopian dreams from\u00a0The America Syndrome\u00a0on Literary Hub.\n\n\n\nRead this\u00a0excerpt\u00a0on Alternet about why Americans are so predisposed to imagine the end of the world rather than the end of American war-making."
+                ],
+                "output": "readability",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:54.220693+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "screenshot": [
+            {
+                "cmd": [
+                    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "--headless=new",
+                    "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)",
+                    "--window-size=1440,2000",
+                    "--screenshot",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "Google Chrome 153.0.8010.53",
+                "end_ts": "2026-09-24T08:18:44.781304+00:00",
+                "index_texts": null,
+                "output": "screenshot.png",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:40.441760+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "singlefile": [
+            {
+                "cmd": [
+                    "/opt/homebrew/lib/node_modules/single-file-cli/single-file-node.js",
+                    "--browser-executable-path=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "--browser-args=[\"--headless=new\", \"--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)\", \"--window-size=1440,2000\"]",
+                    "https://betsyhartmann.com/books/the-america-syndrome/",
+                    "singlefile.html"
+                ],
+                "cmd_version": "2.0.83",
+                "end_ts": "2026-09-24T08:18:36.130371+00:00",
+                "index_texts": null,
+                "output": "singlefile.html",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:28.866641+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "title": [
+            {
+                "cmd": [
+                    "curl",
+                    "--silent",
+                    "--location",
+                    "--compressed",
+                    "--max-time",
+                    "60",
+                    "--user-agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) curl/curl 8.7.1 (x86_64-apple-darwin25.0)",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "curl 8.7.1 (x86_64-apple-darwin25.0)",
+                "end_ts": "2026-09-24T08:18:54.215576+00:00",
+                "index_texts": null,
+                "output": "The America Syndrome \u2013 Betsy Hartmann",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:54.210593+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "wget": [
+            {
+                "cmd": [
+                    "wget",
+                    "--no-verbose",
+                    "--adjust-extension",
+                    "--convert-links",
+                    "--force-directories",
+                    "--backup-converted",
+                    "--span-hosts",
+                    "--no-parent",
+                    "-e",
+                    "robots=off",
+                    "--timeout=60",
+                    "--restrict-file-names=windows",
+                    "--warc-file=/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035/warc/1790237928",
+                    "--page-requisites",
+                    "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) wget/GNU Wget 1.25.0",
+                    "--compression=auto",
+                    "https://betsyhartmann.com/books/the-america-syndrome/"
+                ],
+                "cmd_version": "GNU Wget 1.25.0",
+                "end_ts": "2026-09-24T08:18:54.209097+00:00",
+                "index_texts": null,
+                "output": "betsyhartmann.com/books/the-america-syndrome/index.html",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:18:48.852174+00:00",
+                "status": "succeeded"
+            }
+        ]
+    },
+    "icons": null,
+    "is_archived": true,
+    "is_static": false,
+    "latest": {
+        "archive_org": "ArchiveError: Failed to find \"content-location\" URL header in Archive.org response.",
+        "dom": "output.html",
+        "favicon": "favicon.ico",
+        "git": null,
+        "media": "media",
+        "pdf": "output.pdf",
+        "screenshot": "screenshot.png",
+        "singlefile": "singlefile.html",
+        "title": "The America Syndrome \u2013 Betsy Hartmann",
+        "warc": null,
+        "wget": "betsyhartmann.com/books/the-america-syndrome/index.html"
+    },
+    "link_dir": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457035",
+    "newest_archive_date": "2026-09-24T08:18:58.592642+00:00",
+    "num_failures": 1,
+    "num_outputs": 11,
+    "oldest_archive_date": "2026-09-24T08:18:26.510998+00:00",
+    "path": "/books/the-america-syndrome/",
+    "schema": "Link",
+    "scheme": "https",
+    "snapshot_id": "3cf040d2-8c0a-407f-9fc0-38d2912a5a6e",
+    "sources": [
+        "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/sources/1790237619-import.txt"
+    ],
+    "tags": null,
+    "tags_str": "",
+    "timestamp": "1790237619.457035",
+    "title": "The America Syndrome \u2013 Betsy Hartmann",
+    "updated": "2026-09-24T08:18:26.510899+00:00",
+    "updated_date": "2026-09-24 08:18",
+    "url": "https://betsyhartmann.com/books/the-america-syndrome/"
+}

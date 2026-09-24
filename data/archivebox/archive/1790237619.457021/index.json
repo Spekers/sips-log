@@ -1,0 +1,338 @@
+{
+    "archive_path": "archive/1790237619.457021",
+    "base_url": "www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo",
+    "basename": "hypernormalization-dysfunction-status-quo",
+    "bookmarked_date": "2026-09-24 08:13",
+    "canonical": {
+        "archive_org_path": "https://web.archive.org/web/www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo",
+        "dom_path": "output.html",
+        "favicon_path": "favicon.ico",
+        "git_path": "git/",
+        "google_favicon_path": "https://www.google.com/s2/favicons?domain=www.theguardian.com",
+        "headers_path": "headers.json",
+        "htmltotext_path": "htmltotext.txt",
+        "index_path": "index.html",
+        "media_path": "media/",
+        "mercury_path": "mercury/content.html",
+        "pdf_path": "output.pdf",
+        "readability_path": "readability/content.html",
+        "screenshot_path": "screenshot.png",
+        "singlefile_path": "singlefile.html",
+        "warc_path": "warc/",
+        "wget_path": "www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo.html"
+    },
+    "domain": "www.theguardian.com",
+    "extension": "",
+    "hash": "KSC1HE57KBQMTKFMG2B4",
+    "history": {
+        "archive_org": [
+            {
+                "cmd": [
+                    "curl",
+                    "--silent",
+                    "--location",
+                    "--compressed",
+                    "--head",
+                    "--max-time",
+                    "60",
+                    "--user-agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) curl/curl 8.7.1 (x86_64-apple-darwin25.0)",
+                    "https://web.archive.org/save/https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "curl 8.7.1 (x86_64-apple-darwin25.0)",
+                "end_ts": "2026-09-24T08:14:42.498887+00:00",
+                "index_texts": null,
+                "output": "ArchiveError: Failed to find \"content-location\" URL header in Archive.org response.",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:14:35.674345+00:00",
+                "status": "failed"
+            }
+        ],
+        "dom": [
+            {
+                "cmd": [
+                    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "--headless=new",
+                    "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)",
+                    "--window-size=1440,2000",
+                    "--dump-dom",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "Google Chrome 153.0.8010.53",
+                "end_ts": "2026-09-24T08:14:02.409552+00:00",
+                "index_texts": null,
+                "output": "output.html",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:13:59.286023+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "favicon": [
+            {
+                "cmd": [
+                    "curl",
+                    "--silent",
+                    "--location",
+                    "--compressed",
+                    "--max-time",
+                    "60",
+                    "--output",
+                    "favicon.ico",
+                    "--user-agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) curl/curl 8.7.1 (x86_64-apple-darwin25.0)",
+                    "https://www.google.com/s2/favicons?domain=www.theguardian.com"
+                ],
+                "cmd_version": "curl 8.7.1 (x86_64-apple-darwin25.0)",
+                "end_ts": "2026-09-24T08:13:39.713342+00:00",
+                "index_texts": null,
+                "output": "favicon.ico",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:13:39.570898+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "git": [],
+        "headers": [
+            {
+                "cmd": [
+                    "curl",
+                    "--silent",
+                    "--location",
+                    "--compressed",
+                    "--head",
+                    "--max-time",
+                    "60",
+                    "--user-agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) curl/curl 8.7.1 (x86_64-apple-darwin25.0)",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "curl 8.7.1 (x86_64-apple-darwin25.0)",
+                "end_ts": "2026-09-24T08:13:40.174334+00:00",
+                "index_texts": null,
+                "output": "headers.json",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:13:39.715850+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "htmltotext": [],
+        "media": [
+            {
+                "cmd": [
+                    "yt-dlp",
+                    "--write-description",
+                    "--write-info-json",
+                    "--write-annotations",
+                    "--write-thumbnail",
+                    "--no-call-home",
+                    "--write-sub",
+                    "--write-auto-subs",
+                    "--convert-subs=srt",
+                    "--yes-playlist",
+                    "--continue",
+                    "--no-abort-on-error",
+                    "--ignore-errors",
+                    "--geo-bypass",
+                    "--add-metadata",
+                    "--format=(bv*+ba/b)[filesize<=750m][filesize_approx<=?750m]/(bv*+ba/b)",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "2026.03.17",
+                "end_ts": "2026-09-24T08:14:35.672413+00:00",
+                "index_texts": [],
+                "output": "media",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:14:31.675523+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "mercury": [
+            {
+                "cmd": [
+                    "/opt/homebrew/lib/node_modules/@postlight/parser/cli.js",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "1.0.0",
+                "end_ts": "2026-09-24T08:14:31.657500+00:00",
+                "index_texts": null,
+                "output": "mercury",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:14:29.694045+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "pdf": [
+            {
+                "cmd": [
+                    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "--headless=new",
+                    "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)",
+                    "--window-size=1440,2000",
+                    "--print-to-pdf",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "Google Chrome 153.0.8010.53",
+                "end_ts": "2026-09-24T08:13:55.755411+00:00",
+                "index_texts": null,
+                "output": "output.pdf",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:13:52.812723+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "readability": [
+            {
+                "cmd": [
+                    "/opt/homebrew/lib/node_modules/readability-extractor/readability-extractor",
+                    "/var/folders/5c/pl67hms52szcj9ppn2gb4gw00000gn/T/tmptp1z0y7s",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "0.0.6",
+                "end_ts": "2026-09-24T08:14:29.688313+00:00",
+                "index_texts": [
+                    "In January, the comedian Ashley Bez posted an Instagram video of herself, trying to describe a heavy mood in the air. \u201cHow come everything feels all \u2026?\u201d she says, trailing off and grimacing exaggeratedly into the camera.Digital anthropologist Rahaf Harfoush saw the video, and got it immediately.\u201cWelcome to the hypernormalization club,\u201d Harfoush said in a response video. \u201cI\u2019m so sorry that you\u2019re here.\u201d\u201cHypernormalization\u201d is a heady, $10 word, but it captures the weird, dire atmosphere of the US in 2025.First articulated in 2005 by scholar Alexei Yurchak to describe the civilian experience in Soviet Russia, hypernormalization describes life in a society where two main things are happening.The first is people seeing that governing systems and institutions are broken. And the second is that, for reasons including a lack of effective leadership and an inability to imagine how to disrupt the status quo, people carry on with their lives as normal despite systemic dysfunction \u2013 give or take a heavy load of fear, dread, denial and dissociation.\u201cWhat you are feeling is the disconnect between seeing that systems are failing, that things aren\u2019t working \u2026 and yet the institutions and the people in power just are, like, ignoring it and pretending everything is going to go on the way that it has,\u201d Harfoush says in her video.Within 48 hours, Harfoush\u2019s video accrued millions of views. (It currently has slightly fewer than 9m.) It spread in \u201cmom groups, friend chat circles, political subreddits, coupon communities, and even dog-walking groups\u201d, Harfoush tells me, along with variations of: \u201cOh, so that\u2019s what I\u2019ve been feeling!\u201d and \u201cpeople tagging their friends with notes like: \u2018We were just talking about this!\u2019\u201d\u2018People carry on with their lives as normal despite systemic dysfunction.\u2019 Illustration: Glenn Harvey/GuardianWhy hypernormalization is relevant in the USThe increasing instability of the US\u2019s democratic norms has prompted these references to hypernormalization.Donald Trump is dismantling government checks and balances in an apparent advance toward a \u201cunitary executive\u201d doctrine that would grant him near-unlimited authority, driving the US toward autocracy. Billionaire tech moguls like Elon Musk are helping the government consolidate power and aggressively reduce the federal workforce. Institutions like the National Institutes of Health, the Centers for Disease Control and Prevention and the Food and Drug Administration, which help keep Americans healthy and informed, are being haphazardly diminished.Globally, once-in-a-lifetime climate disasters, war and the lingering trauma of Covid continue to unfold, while an explosion of generative AI threatens to destabilize how people think, make a living and relate to each other.For many in the US, Trump 2.0 is having a devastating effect on daily life. For others, the routines of life continue, albeit threaded with mind-altering horrors: scrolling past an AI-generated cartoon of Ice officers arresting immigrants before dinner, or hearing about starving Palestinian families while on a school run.Hypernormalization captures this juxtaposition of the dysfunctional and mundane.It\u2019s \u201cthe visceral sense of waking up in an alternate timeline with a deep, bodily knowing that something isn\u2019t right \u2013 but having no clear idea how to fix it\u201d, Harfoush tells me. \u201cIt\u2019s reading an article about childhood hunger and genocide, only to scroll down to a carefree listicle highlighting the best-dressed celebrities or a whimsical quiz about: \u2018What Pop-Tart are you?\u2019\u201dIn his 2016 documentary HyperNormalisation, the British film-maker Adam Curtis argued that Yurchak\u2019s critique of late-Soviet life applies neatly to the west\u2019s decades-long slide into authoritarianism, something more Americans are now confronting head-on.\u201cDonald Trump is not something new,\u201d Curtis tells me, calling him \u201cthe final pantomime product\u201d of the US government, where the powerful are abandoning any pretense of common, inclusive ideals and instead using their positions to settle scores, reward loyalty and hollow out institutions for personal or political gains.Trump\u2019s US is \u201cjust like Yeltsin in Russia in the 1990s \u2013 promising a new kind of democracy, but in reality allowing the oligarchs to loot and distort the society\u201d, says Curtis.Why the concept of hypernormalization is usefulWitnessing large-scale systems slowly unravel in real time can be profoundly surreal and frightening. The hypernormalization framework offers a way to understand what we\u2019re feeling and why.Harfoush created her video \u201cto reassure others that they\u2019re not alone\u201d and that \u201cthey aren\u2019t misinterpreting the situation or imagining things\u201d. Understanding hypernormalization \u201cmade me feel less isolated\u201d, she says. \u201cIt\u2019s difficult to act when you\u2019re uncertain if you\u2019re perceiving reality clearly, but once you know the truth, you can channel that clarity into meaningful action and, ideally, drive positive change.\u201dNaming an experience can be a form of psychological relief. \u201cThe worst thing in the world is to feel that you\u2019re the only one who feels this way and that you are going quietly mad and everyone else is in denial,\u201d says Caroline Hickman, a psychotherapist and instructor at the University of Bath specializing in climate anxiety. \u201cThat terrifies people. It traumatizes people.\u201dPeople who feel the \u201cwrongness\u201d of current conditions acutely may be experiencing some depression and anxiety, but those feelings can be quite rational \u2013 not a symptom of poor mental health, alarmism or a lack of proper perspective, Hickman says.\u201cWhat we\u2019re really scared of is that the people in power have not got our back and they don\u2019t give a shit about whether we survive or not,\u201d she says.\u2018The hypernormalization framework offers a way to understand what we\u2019re feeling and why.\u2019 Illustration: Glenn Harvey/GuardianMarielle Greguski, 32, a New York City-based retail worker and content creator, posted about everyday life feeling \u201cinconsequential\u201d in the face of political crisis. Greguski says the outcome of the 2024 election reminded her that she lives in a \u201cbubble\u201d of progressive values, and that \u201cthere\u2019s the other half of people that are not feeling the same energy and frustration and fear\u201d.To Greguski, the US\u2019s failings are not only partisan but moral \u2013 like the racism and bigotry that Trump\u2019s second term has brought out of the shadows and into policy.Greguski is currently planning a wedding. It\u2019s hard to compartmentalize \u201cconstant cruelty, things that don\u2019t make sense\u201d, she says. \u201cSometimes I\u2019ll be like: \u2018I have to put aside X amount of money for the wedding next year,\u2019 and then I\u2019m like: \u2018Will this country exist as we know it next year?\u2019 It really is crazy.\u201dThe effects of hypernormalizationConfronting systemic collapse can be so disorienting, overwhelming and even humiliating, that many tune it out or find themselves in a state of freeze.Greguski likens this feeling to sleep paralysis: \u201cbasically a waking nightmare where you\u2019re like: \u2018I\u2019m here, I\u2019m aware, but I\u2019m so scared and I can\u2019t move.\u2019\u201dIn his 1955 book They Thought They Were Free: The Germans, 1933\u201345, journalist Milton Mayer described a similar state of freeze in German citizens during the rise of the Nazi party: \u201cYou don\u2019t want to act, or even talk, alone; you don\u2019t want to \u2018go out of your way to make trouble.\u2019 Why not? \u2013 Well, you are not in the habit of doing it. And it is not just fear, fear of standing alone, that restrains you; it is also genuine uncertainty.\u201d\u201cPeople don\u2019t shut down because they don\u2019t feel anything,\u201d says Hickman. \u201cThey shut down because they feel too much.\u201d Understanding this overwhelm is an important first step in resisting inaction \u2013 it helps us see fear as a trap.Curtis points out that governments may intentionally keep their citizens in a vulnerable state of dread and confusion as \u201ca brilliant way of managing a highly febrile and anxious society\u201d, he says.When we feel powerless in the face of bigger problems, we \u201cturn to the only thing that we do have the power over, to try and change for the better\u201d, says Curtis \u2013 meaning, typically, ourselves. Anxiety and fear can trap us, leading us to spend more time trying to feel better in small, personal ways, like entertainment and self-care, and less time on activism and community engagement.\u2018People don\u2019t shut down because they don\u2019t feel anything. They shut down because they feel too much.\u2019 Illustration: Glenn Harvey/GuardianHow to overcome hypernormalizationProgressive commentators have urgently called for moral clarity and mobilization in response to changes like the cuts to USAID funding, which has resulted in an estimated 103 deaths per hour across the globe; the dismantling of the CDC; and Robert F Kennedy\u2019s campaign against vaccine science.\u201cWhere is the outrage?\u201d asks the Nation\u2019s Gregg Gonsalves. \u201cToo many lives are at stake to rest in this bizarre moment of frozen agitation.\u201d\u201cI don\u2019t know if there\u2019s a massive shift toward racism as much as an expanded indifference toward it,\u201d the historian Robin DG Kelley said in a February interview with New York Magazine. \u201cPeople are just kind of like: \u2018Well, what can we do?\u2019\u201dExperts say action can break the spell. \u201cBeing active politically, in whatever way, I think helps reduce apocalyptic gloom,\u201d says Betsy Hartmann, an activist, scholar and author of The America Syndrome, which explores the importance of resisting apocalyptic thinking.Greguski and a co-worker have been helping distribute multilingual information about legal rights and helpline numbers, to be used in the event of Ice raids.\u201cIt\u2019s easy to feel like: \u2018Oh, I\u2019m in community because I\u2019m on TikTok,\u2019\u201d she says. But genuine community is about \u201cgetting outside and talking to your neighbor and knowing that there\u2019s someone out there that can help you if something really bad goes down,\u201d she says.\u201cYou\u2019re actually out there talking to people, working with people and realizing there are so many good people in the world, too, and maybe feeling less isolated than before,\u201d says Hartmann.\u201cBut I also think we need a broader vision,\u201d Hartmann notes. She suggests looking to resistance efforts against authoritarianism in countries like Turkey, Hungary and India. \u201cHow might we be in international solidarity? What lessons can we learn in terms of rebuilding sophisticated, complex government infrastructure that\u2019s been hacked away at by people like Elon Musk and his minions in a more socially just and sustainable way?\u201d\u201cWe are in a period now when it\u2019s absolutely essential to protest,\u201d says Hartmann, citing the Harvard professor Erica Chenoweth, who argues that just 3.5% of a population engaging in peaceful protest can hold back authoritarian movements.What makes dysfunction so dangerous is that we might simply learn to live with it. But understanding hypernormalization gives us language \u2013 and permission \u2013 to recognize when systems are failing, and clarifies the risk of not taking action when we can.In 2014, Ursula Le Guin accepted the National Book Foundation\u2019s Medal for Distinguished Contribution to American Letters, saying: \u201cWe live in capitalism. Its power seems inescapable. So did the divine right of kings. Any human power can be resisted and changed by human beings. Resistance and change often begin in art, and very often in our art, the art of words.\u201dHarfoush reflects on this quote often. It underscores the fact that \u201cthis world we\u2019ve created is ultimately a choice\u201d, she says. \u201cIt doesn\u2019t have to be like this.\u201dWe have the research, technologies and wisdom to create better, more sustainable systems.\u201cBut meaningful change requires collective awakening and decisive action,\u201d says Harfoush. \u201cAnd we need to start now.\u201d"
+                ],
+                "output": "readability",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:14:27.722020+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "screenshot": [
+            {
+                "cmd": [
+                    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "--headless=new",
+                    "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)",
+                    "--window-size=1440,2000",
+                    "--screenshot",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "Google Chrome 153.0.8010.53",
+                "end_ts": "2026-09-24T08:13:59.284245+00:00",
+                "index_texts": null,
+                "output": "screenshot.png",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:13:55.756584+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "singlefile": [
+            {
+                "cmd": [
+                    "/opt/homebrew/lib/node_modules/single-file-cli/single-file-node.js",
+                    "--browser-executable-path=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "--browser-args=[\"--headless=new\", \"--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)\", \"--window-size=1440,2000\"]",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo",
+                    "singlefile.html"
+                ],
+                "cmd_version": "2.0.83",
+                "end_ts": "2026-09-24T08:13:52.810920+00:00",
+                "index_texts": null,
+                "output": "singlefile.html",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:13:40.176897+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "title": [
+            {
+                "cmd": [
+                    "curl",
+                    "--silent",
+                    "--location",
+                    "--compressed",
+                    "--max-time",
+                    "60",
+                    "--user-agent",
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) curl/curl 8.7.1 (x86_64-apple-darwin25.0)",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "curl 8.7.1 (x86_64-apple-darwin25.0)",
+                "end_ts": "2026-09-24T08:14:27.721384+00:00",
+                "index_texts": null,
+                "output": "Systems are crumbling \u2013\u00a0but daily life continues. The dissonance is real | Well actually | The Guardian",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:14:27.712073+00:00",
+                "status": "succeeded"
+            }
+        ],
+        "wget": [
+            {
+                "cmd": [
+                    "wget",
+                    "--no-verbose",
+                    "--adjust-extension",
+                    "--convert-links",
+                    "--force-directories",
+                    "--backup-converted",
+                    "--span-hosts",
+                    "--no-parent",
+                    "-e",
+                    "robots=off",
+                    "--timeout=60",
+                    "--restrict-file-names=windows",
+                    "--warc-file=/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021/warc/1790237642",
+                    "--page-requisites",
+                    "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/) wget/GNU Wget 1.25.0",
+                    "--compression=auto",
+                    "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+                ],
+                "cmd_version": "GNU Wget 1.25.0",
+                "end_ts": "2026-09-24T08:14:27.709015+00:00",
+                "index_texts": null,
+                "output": "www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo.html",
+                "pwd": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+                "schema": "ArchiveResult",
+                "start_ts": "2026-09-24T08:14:02.410799+00:00",
+                "status": "succeeded"
+            }
+        ]
+    },
+    "icons": null,
+    "is_archived": true,
+    "is_static": false,
+    "latest": {
+        "archive_org": "ArchiveError: Failed to find \"content-location\" URL header in Archive.org response.",
+        "dom": "output.html",
+        "favicon": "favicon.ico",
+        "git": null,
+        "media": "media",
+        "pdf": "output.pdf",
+        "screenshot": "screenshot.png",
+        "singlefile": "singlefile.html",
+        "title": "Systems are crumbling \u2013\u00a0but daily life continues. The dissonance is real | Well actually | The Guardian",
+        "warc": null,
+        "wget": "www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo.html"
+    },
+    "link_dir": "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/archive/1790237619.457021",
+    "newest_archive_date": "2026-09-24T08:14:35.674345+00:00",
+    "num_failures": 1,
+    "num_outputs": 11,
+    "oldest_archive_date": "2026-09-24T08:13:39.570898+00:00",
+    "path": "/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo",
+    "schema": "Link",
+    "scheme": "https",
+    "snapshot_id": "00d7fc8a-3b5d-4d85-b63b-60d1911c2815",
+    "sources": [
+        "/Users/sipke/Local/Local Docu/sips-log/data/archivebox/sources/1790237619-import.txt"
+    ],
+    "tags": null,
+    "tags_str": "",
+    "timestamp": "1790237619.457021",
+    "title": "Systems are crumbling \u2013\u00a0but daily life continues. The dissonance is real | Well actually | The Guardian",
+    "updated": "2026-09-24T08:13:39.570845+00:00",
+    "updated_date": "2026-09-24 08:13",
+    "url": "https://www.theguardian.com/wellness/ng-interactive/2025/may/22/hypernormalization-dysfunction-status-quo"
+}
