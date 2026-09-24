@@ -4,7 +4,7 @@
 	"location": "Lausanne"
 }
 ---
-# On existential dread
+# On Existential Dread
 
 <figure>
 <img src="/img/post/existential-dread/lotus-kazumasa-ogawa.jpeg" alt="lotus flower painting by Ogawa Kazumasa" width="400"/>
