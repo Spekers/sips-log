@@ -15,7 +15,7 @@ In this first of probably many recommendation letters, I want to show off some c
 
 ## Journalism
 
-- Wes Enzinna, [The Profession That Does Not Exist](https://thebaffler.com/odds-and-ends/the-profession-that-does-not-exist-symposium)
+- Wes Enzinna, [The Profession That Does Not Exist](http://web.archive.org/web/20260910045312/https://thebaffler.com/odds-and-ends/the-profession-that-does-not-exist-symposium)
 
 This article is a collection of short stories from struggling writers. It reveals in personal ways how the profession of writing just isn't as romantic as it seems, but each account shows how creatives find a way. It is both inspiring and depressing. 
 
@@ -67,7 +67,7 @@ This exhibition, unique in Switzerland, retraces Takahata’s career, from *Heid
 
 ## Food
 
-- [Burek Hasi](https://www.burekhasi.ch/)
+- [Burek Hasi](http://web.archive.org/web/20260522110934/https://www.burekhasi.ch/)
 
 Finding late-night, affordable food in Switzerland is a challenge. So finding this small Southeast Europe bakery was a gift. They're open from 6am to 10pm, 7 days a week. The owner is a friendly, scary-looking man, and everything looks like it was made with love. Of course I recommend grabbing a slice of burek, but having tried some of their desserts, I believe everything they offer is worth a try.
 
