@@ -1,0 +1,21 @@
+{
+    "Status-Code": 200,
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Type": "text/html;charset=UTF-8",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Server": "nginx",
+    "X-Cache-Npr": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Npr-Trace-Id": "renP23HCyB5",
+    "X-Served-By": "pod-www-render-nginx-594c8c777-87l6q",
+    "X-Xss-Protection": "1; mode=block",
+    "Vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "Cache-Control": "no-cache",
+    "Expires": "Thu, 01 Oct 2026 20:01:15 GMT",
+    "Date": "Thu, 01 Oct 2026 20:01:15 GMT",
+    "Content-Length": "20",
+    "Connection": "keep-alive",
+    "Server-Timing": "ak_p; desc=\"1790884872023_34936334_250648867_390223_14310_7_18_-\";dur=1"
+}

@@ -9,7 +9,7 @@ Hi Everyone, hope you are doing alright. I hope the colder weather and rain have
 
 ## Radio
 
-A big thing I've been very invested in recently has been my new morning radio show. It isn't anything groundbreaking and it's heavily borrowing from a much better show hosted by Flo Dill. However, researching songs and having a creative outlet to keep me grounded has been a blessing. The comments and feedback I've had on the last episode were more than I ever expected and I can't thank everyone enough. I'm hoping to keep up my research of different music and hope to set up a live chat sometime where people could tell each other how their morning is going and what they're excited for. I'd love nothing more than to connect random people.
+A big thing I've been very invested in recently has been my new morning radio show. It isn't anything groundbreaking and it's heavily borrowing from a much better [show hosted by Flo Dill](https://www.nts.live/shows/the-breakfast-show-flo). However, researching songs and having a creative outlet to keep me grounded has been a blessing. The comments and feedback I've had on the last episode were more than I ever expected and I can't thank everyone enough. I'm hoping to keep up my research of different music and hope to set up a live chat sometime where people could tell each other how their morning is going and what they're excited for. I'd love nothing more than to connect random people.
 
 ## Free Time
 
