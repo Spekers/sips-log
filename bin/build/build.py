@@ -123,6 +123,8 @@ try:
         build_ninja.write("build out/site/comments.min.css: copy-file out/tmp/comments.min.css\n")
         build_ninja.write("build out/tmp/newsletter.min.css: minify-css parts/newsletter.css\n")
         build_ninja.write("build out/site/newsletter.min.css: copy-file out/tmp/newsletter.min.css\n")
+        build_ninja.write("build out/tmp/about.min.css: minify-css parts/about.css\n")
+        build_ninja.write("build out/site/about.min.css: copy-file out/tmp/about.min.css\n")
 
         for style_file in os.listdir("parts/customstyles/"):
             entry_name = style_file.rsplit(".", 1)[0]

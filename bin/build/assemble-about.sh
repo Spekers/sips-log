@@ -14,6 +14,7 @@ sed \
 	-e "/★EXTRA_TAGS★/{
 		i <meta property=\"og:image\" content=\"$BLOG_URL/fleuron.png\"/>
 		i <meta name=\"description\" content=\"About Sip\"/>
+		i <link rel=\"stylesheet\" href=\"/about.min.css\"/>
 	}" \
 	-e "/★PAGE_CONTENT★/{
 		s/★PAGE_CONTENT★//g

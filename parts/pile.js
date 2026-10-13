@@ -1,3 +1,4 @@
+/* global Matter */
 (function () {
 	var pile = document.querySelector('.pile');
 	if (!pile || !window.Matter) return;
