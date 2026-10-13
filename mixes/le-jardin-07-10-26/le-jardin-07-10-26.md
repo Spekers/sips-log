@@ -1,0 +1,35 @@
+# Le Jardin - 07/10/2026 
+
+## Description
+
+Hi everyone, this is my third episode recorded live on the [Fréquence Banane](http://web.archive.org/web/20260912165154/https://www.frequencebanane.ch/) student radio. I recorded an extra long 2h mix because I just had too much music I wanted to share. Also new was the live chatroom. You can join the [group](http://t.me/lejardinfb) and chat with me and others by joining for next time. Thank you very much for listening and have a great week! <3
+
+## Tracklist
+
+- 00:00 - Frank LoCrasto - Simple Times
+- 06:30 - Gil Scott-Heron - I Think l'll Call It Morning
+- 10:58 - Al Green - Love and Happiness
+- 16:05 - The Chronicle Church - Mystery
+- 19:12 - Monophonics, Mike James Kirkland - Glowin'
+- 23:05 - African Music Machine - Black Water Gold (Pearl)
+- 26:10 - Kindness - Softness As A Weapon
+- 31:16 - Archie Whitewater - Cross Country
+- 35:35 - Pekka Streng - Puutarhassa
+- 40:28 - Sade - Is It a Crime
+- 48:22 - Kadhja Bonet - Remember the Rain
+- 54:33 - Asha Puthli, The Surfers - Sunny
+- 58:15 - Derrick Lara, Trinity - Don't Stop Til You Get Enough
+- 01:05:42 - 15 16 17 - Emotions
+- 01:14:00 - Nina Simone - Baltimore
+- 01:18:40 - Harold Melvin & The Blue Notes, Teddy Pendergrass - I Miss You (feat. Teddy Pendergrass)
+- 01:22:01 - Marvin Gaye - Woman Of The World
+- 01:26:44 - Terry Callier - You Don't Care
+- 01:32:09 - Nyron Higor, Johanna - Me Vestir De Você
+- 01:34:06 - Pete Jolly - Seasons
+- 01:37:52 - Serebii, Leith Sye Towers - Verrans Corner
+- 01:41:17 - Red Hot Org, Laraaji, Kronos Quartet, Sun Ra - Daddy's Gonna Tell You No Lie
+- 01:46:47 - Duval Timothy - lbs
+- 01:52:02 - Ryuichi Sakamoto, Jaques Morelenbaum, Everton Nelson - Bibo No Aozora - Version for Piano Trio
+- 01:59:36 - Nujabes - Horizon
+
+## Research
