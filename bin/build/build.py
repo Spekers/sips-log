@@ -78,6 +78,9 @@ rule assemble-newsletter
 
 rule assemble-newsletters
   command = ./bin/build/assemble-newsletters.sh $in $out
+
+rule assemble-about
+  command = ./bin/build/assemble-about.sh $out
 """
 
 fifo_name = 'build.ninja'
@@ -180,6 +183,11 @@ try:
         build_ninja.write("build out/tmp/404.html: assemble-404 | bin/build/assemble-404.sh bin/build/vars.sh parts/template.html parts/404.html\n")
         build_ninja.write("build out/tmp/404.min.html: minify-html out/tmp/404.html\n")
         build_ninja.write("build out/site/404.html: copy-file out/tmp/404.min.html\n")
+
+        build_ninja.write("build out/tmp/about/index.html: assemble-about | bin/build/assemble-about.sh bin/build/vars.sh parts/template.html parts/about.html\n")
+        build_ninja.write("build out/tmp/about/index.min.html: minify-html out/tmp/about/index.html\n")
+        build_ninja.write("build out/site/about/index.html: copy-file out/tmp/about/index.min.html\n")
+
 
     process.wait()
 finally:
