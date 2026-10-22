@@ -7,7 +7,7 @@ cd "$(dirname "$0")"/../../
 MIX_SLUG="$1"
 
 if [ "$#" -ne 1 ]; then
-	MIX_SLUG=$(date +"%m-%d-%Y")
+	MIX_SLUG=$(date +"%d-%m-%Y")
 fi
 
 MIX_PATH=./mixes/$(date +'%s')-$MIX_SLUG.md
