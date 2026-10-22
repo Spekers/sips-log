@@ -604,6 +604,4 @@ body:has(.mix-page) { padding-left: 0 !important; }
 .mix-page .tracklist li { display: flex; gap: 12px; padding: 4px 8px; }
 .mix-page .tracklist .ts { font-family: "Courier New", monospace; color: #0000ee; min-width: 56px; }
 .mix-page a { color: #0000ee; }
-.mix-footer { position: fixed; left: 0; right: 0; bottom: 0; z-index: 100; height: 60px; }
-.mix-footer iframe { display: block; width: 100%; height: 60px; border: 0; }
-body.has-mix-footer { padding-bottom: 60px; }
+.mix-page .mix-embed { flex: 1; min-width: 0; height: 60px; border: 0; }

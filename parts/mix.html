@@ -44,25 +44,21 @@
 <script>
 (function() {
 	const playBtn = document.getElementById("playBtn");
-	let footer = null;
+	let iframe = null;
 
 	playBtn.addEventListener("click", () => {
-		if (footer) {
-			footer.remove();
-			footer = null;
-			document.body.classList.remove("has-mix-footer");
+		if (iframe) {
+			iframe.remove();
+			iframe = null;
 			playBtn.textContent = "Play";
 			return;
 		}
-		footer = document.createElement("div");
-		footer.className = "mix-footer";
-		const iframe = document.createElement("iframe");
+		iframe = document.createElement("iframe");
+		iframe.className = "mix-embed";
 		iframe.title = "Mixcloud player";
 		iframe.allow = "autoplay; encrypted-media";
 		iframe.src = "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=" + encodeURIComponent(playBtn.dataset.feed);
-		footer.appendChild(iframe);
-		document.body.appendChild(footer);
-		document.body.classList.add("has-mix-footer");
+		playBtn.after(iframe);
 		playBtn.textContent = "Close";
 	});
 })();
