@@ -44,8 +44,13 @@ I'm using [EB Garamond](https://github.com/octaviopardo/EBGaramond12), an open-s
 
 ## Mixtapes
 
-Mixtape pages use [98.css](https://jdan.github.io/98.css/) by Jordan Scales to recreate the Windows 95/98 UI aesthetic. Audio files (mp3s) are hosted on [Cloudflare R2](https://www.cloudflare.com/developer-platform/products/r2/) and served from a custom subdomain, so the repository stays small and bandwidth is free at the edge.
+Mixtape pages use [98.css](https://jdan.github.io/98.css/) by Jordan Scales to recreate the Windows 95/98 UI aesthetic. The audio lives on [Mixcloud](https://www.mixcloud.com/sipkef/): the Play button opens Mixcloud's player.
 
+The markdown files in [/mixes/](/mixes/) are the source for both the site and Mixcloud:
+
+1. Create a mix with [blank-mix.sh](/bin/author/blank-mix.sh) and write the description and tracklist (`- 00:00 — Artist - Song`).
+2. Upload it with `./bin/author/push-mix.sh mixes/<mix>.md --audio <file> --cover <file>`. This writes the Mixcloud key and cover into the front matter. Run it again without `--audio` to push edits to the title, description or tracklist.
+3. Commit and deploy. The build refuses mixes that are not on Mixcloud yet.
 ## Post Template Generator
 
 There is a [script](/bin/author/prompt.sh) to generate a writing prompt, either by tarot pull or moon phase, as well as a script to generate a [blank post template](/bin/author/blank.sh).
@@ -59,7 +64,6 @@ In the future, I'd like to make a few improvements to my setup:
 * Parallelize broken-link checking.
 * Generate changelog diffs locally, instead of linking to GitHub.
 * Add search (via [stork](https://stork-search.net/) or [tinysearch](https://endler.dev/2019/tinysearch/)).
-* Extend commenting to mixes and journal entries (currently only on posts).
 
 ## License
 
