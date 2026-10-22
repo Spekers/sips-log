@@ -1,3 +1,4 @@
+/* global Mixcloud */
 // Fills the phone's/car's "Now Playing" info with the mix cover, mix title and
 // current track. The audio plays inside Mixcloud's cross-origin iframe, so
 // browsers would show Mixcloud's info. Browsers take the metadata from the
@@ -68,7 +69,9 @@
 		if (!duration || !navigator.mediaSession.setPositionState) return;
 		try {
 			navigator.mediaSession.setPositionState({ duration, position: Math.min(position, duration), playbackRate: 1 });
-		} catch (e) {}
+		} catch {
+			// Older browsers reject some position states; the scrubber is optional.
+		}
 	}
 
 	const widget = Mixcloud.PlayerWidget(iframe);
@@ -112,7 +115,11 @@
 			},
 		};
 		for (const [action, fn] of Object.entries(handlers)) {
-			try { navigator.mediaSession.setActionHandler(action, fn); } catch (e) {}
+			try {
+				navigator.mediaSession.setActionHandler(action, fn);
+			} catch {
+				// Browser doesn't support this action.
+			}
 		}
 	});
 })();
