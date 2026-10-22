@@ -599,6 +599,7 @@ body:has(.mix-page) { padding-left: 0 !important; }
 .mix-page .window + .window { margin-top: 16px; }
 .mix-page .cover { width: 100%; display: block; image-rendering: pixelated; }
 .mix-page .player { display: flex; flex-direction: column; gap: 8px; padding: 12px; }
+.mix-page .mix-embed { display: block; width: 100%; height: 60px; border: 0; }
 .mix-page .tracklist { list-style: none; padding: 0; margin: 0; }
 .mix-page .tracklist li { display: flex; gap: 12px; padding: 4px 8px; }
 .mix-page .tracklist .ts { font-family: "Courier New", monospace; color: #0000ee; min-width: 56px; }
