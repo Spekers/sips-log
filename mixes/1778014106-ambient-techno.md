@@ -1,8 +1,8 @@
 ---
 {
 	"timezone": "CEST",
-	"cover": "/img/mix/ambient-techno.gif",
-	"audio": "https://media.sips-log.com/ambient-techno.mp3"
+	"mixcloud": "/sipkef/cave-diver-techno/",
+	"cover": "https://thumbnailer.mixcloud.com/unsafe/1024x1024/extaudio/d/5/1/c/5825-5faa-4df4-9ad7-c0adeb351847"
 }
 ---
 # Cave Diver Techno
@@ -23,26 +23,3 @@ This mix came from me discovering "Loidis - The Floating World (& All Its Pleasu
 - 01:00:24 - james K, Loidis - Peel (Loidis Remix)
 - 01:15:40 - Dave DK - Impuls (Original Mix)
 - 01:22:33 - Isolée - Leap-Second
-
-## Research
-
-Finlayson, A. (2009). [The Strange and Frightening World Of . . . Basic Channel](https://thequietus.com/interviews/strange-world-of/the-strange-and-frightening-world-of-basic-channel/).  The Quietus. 
-
-Fitzpatrick, K.R. (2025). [The Taste ReportTM: Brian Leeds (aka Huerco S. aka Loidis)](https://1234kyle5678.substack.com/p/the-taste-report-brian-leeds-aka). Substack.
-
-Ishkur (2019a). [Dub Techno](https://music.ishkur.com/?query=DubTechno#). Ishkur’s Guide to Electronic Music.
-
-Ishkur (2019b). [Microhouse](https://music.ishkur.com/?query=Microhouse#). Ishkur’s Guide to Electronic Music.
-
-[Loidis @TheLotRadio](https://www.youtube.com/watch?v=xTR03V_vNPk), (2025). The Lot Radio. 20 Jan.
-
-[Orpheu The Wizard](https://www.nts.live/shows/orpheu-the-wizard/episodes/orpheu-the-wizard-8th-august-2025), (2025). NTS. 8 Aug.
-
-Sherburne, P. (2001). [The Rules of Reduction](https://archive.org/details/the-wire-magazine-2001-07-cbz/page/n17/mode/2up). The Wire. Jul.
-
-[The Early Bird Show w/ Spirit Blue](https://www.nts.live/shows/early-bird-show-spirit-blue/episodes/early-bird-show-spirit-blue-12th-november-2025), (2025). NTS. 12 Nov.
-
-Wikipedia Contributors (2020). [Dub techno](https://en.wikipedia.org/wiki/Dub_techno). Wikipedia.
-
-Wikipedia Contributors (2024). [Microhouse](https://en.wikipedia.org/wiki/Microhouse). Wikipedia.
-

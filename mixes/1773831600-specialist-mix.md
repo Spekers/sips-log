@@ -1,8 +1,8 @@
 ---
 {
 	"timezone": "CEST",
-	"cover": "/img/mix/NTS-Specialist-Mix.jpeg",
-	"audio": "https://media.sips-log.com/NTS-Special-Subject-Mix.mp3"
+	"mixcloud": "/sipkef/everything-alicks/",
+	"cover": "https://thumbnailer.mixcloud.com/unsafe/1024x1024/extaudio/a/b/8/b/26f1-7435-494a-b8bf-62031ce1e5a8"
 }
 ---
 # Everything Alicks
@@ -26,6 +26,3 @@ Hi everyone, I wanted to do a deep-dive on one of the artists I hold dearest by 
 - 49:19 - Alicks - brV075o3Jx
 - 54:34 - flying children - Those Words They Weren't For You
 - 57:39 - Only After 6 PM, Sundots - Fall of Icarus
-
-## Research
-
