@@ -16,13 +16,7 @@
 		<div class="title-bar"><div class="title-bar-text">Windows Media Player</div></div>
 		<div class="window-body player">
 			<div class="transport">
-				<button id="playBtn" style="width: 64px;">Play</button>
-				<input id="seek" class="seek" type="range" min="0" max="1000" value="0" step="1"/>
-				<span id="time" class="time">00:00 / --:--</span>
-			</div>
-			<div class="transport">
-				<label for="vol">Vol</label>
-				<input id="vol" type="range" min="0" max="100" value="80"/>
+				<button id="playBtn" style="width: 64px;" data-feed="★MIX_MIXCLOUD★">Play</button>
 			</div>
 		</div>
 	</div>
@@ -37,16 +31,9 @@
 	<div class="window">
 		<div class="title-bar"><div class="title-bar-text">Tracklist</div></div>
 		<div class="window-body">
-			<ul class="tracklist" id="tracklist">
+			<ul class="tracklist">
 ★MIX_TRACKLIST★
 			</ul>
-		</div>
-	</div>
-
-	<div class="window">
-		<div class="title-bar"><div class="title-bar-text">Research</div></div>
-		<div class="window-body">
-★MIX_RESEARCH★
 		</div>
 	</div>
 
@@ -54,52 +41,29 @@
 
 ★COMMENTS★
 
-<audio id="audio" preload="none" src="★MIX_AUDIO★"></audio>
 <script>
 (function() {
-	const audio = document.getElementById("audio");
 	const playBtn = document.getElementById("playBtn");
-	const seek = document.getElementById("seek");
-	const time = document.getElementById("time");
-	const vol = document.getElementById("vol");
-	let scrubbing = false;
+	let footer = null;
 
-	const fmt = (s) => {
-		if (!isFinite(s)) return "--:--";
-		s = Math.floor(s);
-		const m = Math.floor(s / 60), r = s % 60;
-		return String(m).padStart(2, "0") + ":" + String(r).padStart(2, "0");
-	};
-
-	audio.volume = vol.value / 100;
 	playBtn.addEventListener("click", () => {
-		if (audio.paused) audio.play();
-		else audio.pause();
-	});
-	audio.addEventListener("play", () => { playBtn.textContent = "Pause"; });
-	audio.addEventListener("pause", () => { playBtn.textContent = "Play"; });
-	audio.addEventListener("ended", () => { playBtn.textContent = "Play"; });
-	audio.addEventListener("timeupdate", () => {
-		if (scrubbing) return;
-		const dur = audio.duration || 0;
-		if (dur) seek.value = (audio.currentTime / dur) * 1000;
-		time.textContent = fmt(audio.currentTime) + " / " + fmt(dur);
-	});
-	audio.addEventListener("loadedmetadata", () => {
-		time.textContent = fmt(audio.currentTime) + " / " + fmt(audio.duration);
-	});
-	seek.addEventListener("input", () => { scrubbing = true; });
-	seek.addEventListener("change", () => {
-		if (audio.duration) audio.currentTime = (seek.value / 1000) * audio.duration;
-		scrubbing = false;
-	});
-	vol.addEventListener("input", () => { audio.volume = vol.value / 100; });
-	document.getElementById("tracklist").addEventListener("click", (e) => {
-		const li = e.target.closest("li[data-t]");
-		if (!li) return;
-		const t = Number(li.dataset.t);
-		audio.currentTime = t;
-		if (audio.paused) audio.play();
+		if (footer) {
+			footer.remove();
+			footer = null;
+			document.body.classList.remove("has-mix-footer");
+			playBtn.textContent = "Play";
+			return;
+		}
+		footer = document.createElement("div");
+		footer.className = "mix-footer";
+		const iframe = document.createElement("iframe");
+		iframe.title = "Mixcloud player";
+		iframe.allow = "autoplay; encrypted-media";
+		iframe.src = "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=" + encodeURIComponent(playBtn.dataset.feed);
+		footer.appendChild(iframe);
+		document.body.appendChild(footer);
+		document.body.classList.add("has-mix-footer");
+		playBtn.textContent = "Close";
 	});
 })();
 </script>

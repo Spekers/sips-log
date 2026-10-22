@@ -16,9 +16,7 @@ TIMEZONE=$(date +%Z)
 cat <<MIX_START_TEXT > "$MIX_PATH"
 ---
 {
-	"timezone": "$TIMEZONE",
-	"cover": "/img/mix/$MIX_SLUG.jpg",
-	"audio": "https://media.sips-log.com/$MIX_SLUG.mp3"
+	"timezone": "$TIMEZONE"
 }
 ---
 #
@@ -26,9 +24,7 @@ cat <<MIX_START_TEXT > "$MIX_PATH"
 ## Description
 
 ## Tracklist
-- 00:00 —
-
-## Research
+- 00:00 — Artist - Song
 
 MIX_START_TEXT
 

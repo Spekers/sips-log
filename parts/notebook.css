@@ -600,11 +600,10 @@ body:has(.mix-page) { padding-left: 0 !important; }
 .mix-page .cover { width: 100%; display: block; image-rendering: pixelated; }
 .mix-page .player { display: flex; flex-direction: column; gap: 8px; padding: 12px; }
 .mix-page .transport { display: flex; align-items: center; gap: 8px; }
-.mix-page .seek { flex: 1; }
-.mix-page .time { font-family: "Courier New", monospace; min-width: 90px; text-align: right; }
 .mix-page .tracklist { list-style: none; padding: 0; margin: 0; }
-.mix-page .tracklist li { display: flex; gap: 12px; padding: 4px 8px; cursor: pointer; }
-.mix-page .tracklist li:hover { background: #000080; color: #fff; }
+.mix-page .tracklist li { display: flex; gap: 12px; padding: 4px 8px; }
 .mix-page .tracklist .ts { font-family: "Courier New", monospace; color: #0000ee; min-width: 56px; }
-.mix-page .tracklist li:hover .ts { color: #fff; }
 .mix-page a { color: #0000ee; }
+.mix-footer { position: fixed; left: 0; right: 0; bottom: 0; z-index: 100; height: 60px; }
+.mix-footer iframe { display: block; width: 100%; height: 60px; border: 0; }
+body.has-mix-footer { padding-bottom: 60px; }

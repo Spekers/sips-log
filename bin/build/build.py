@@ -151,7 +151,6 @@ try:
             build_ninja.write(f"build out/tmp/mixes/{mix_slug}/index.html: assemble-mix mixes/{mix} | bin/build/assemble-mix.sh bin/build/strip-front-matter.sh bin/build/vars.sh parts/template.html parts/mix.html\n")
             build_ninja.write(f"build out/tmp/mixes/{mix_slug}/index.min.html: minify-html out/tmp/mixes/{mix_slug}/index.html\n")
             build_ninja.write(f"build out/site/mixes/{mix_slug}/index.html: copy-file out/tmp/mixes/{mix_slug}/index.min.html\n")
-            build_ninja.write(f"build out/site/mixes/{mix_slug}/{mix_slug}.md: make-markdown-file mixes/{mix}\n")
 
         if mix_files:
             build_ninja.write(f"build out/tmp/mixes/index.html: assemble-mixes mixes/{' mixes/'.join(mix_files)} | bin/build/assemble-mixes.sh bin/build/vars.sh parts/template.html parts/mixes.html\n")

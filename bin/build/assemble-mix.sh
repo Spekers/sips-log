@@ -12,7 +12,12 @@ MIX_TIMEZONE=$(echo "$MIX_FRONT_MATTER" | jq -r .timezone)
 MIX_TIMESTAMP=$(echo "$MIX_NAME" | cut -d- -f1)
 MIX_DATE=$(TZ="$MIX_TIMEZONE" date -d @"$MIX_TIMESTAMP" +"%A %B %-d, %Y")
 MIX_COVER=$(echo "$MIX_FRONT_MATTER" | jq -r .cover)
-MIX_AUDIO=$(echo "$MIX_FRONT_MATTER" | jq -r '.audio // .audio_hi')
+MIX_MIXCLOUD=$(echo "$MIX_FRONT_MATTER" | jq -r '.mixcloud // empty')
+
+if [ -z "$MIX_MIXCLOUD" ]; then
+	echo "$MIX_PATH has no mixcloud key, push it first: ./bin/author/push-mix.sh $MIX_PATH <audio> <cover>" >&2
+	exit 1
+fi
 
 mkdir -p "$(dirname "$OUT_FILE")"
 
@@ -34,10 +39,8 @@ extract_section() {
 
 DESCRIPTION_MD=$(extract_section "Description")
 TRACKLIST_MD=$(extract_section "Tracklist")
-RESEARCH_MD=$(extract_section "Research")
 
 DESCRIPTION_HTML=$(echo "$DESCRIPTION_MD" | pandoc --from=markdown --to=html)
-RESEARCH_HTML=$(echo "$RESEARCH_MD" | pandoc --from=markdown --to=html)
 
 TRACKLIST_HTML=$(echo "$TRACKLIST_MD" | awk '
 	/^[[:space:]]*-[[:space:]]+[0-9]+:[0-9]+/ {
@@ -47,13 +50,8 @@ TRACKLIST_HTML=$(echo "$TRACKLIST_MD" | awk '
 		ts = line
 		sub(/[[:space:]].*$/, "", ts)
 		rest = line
-		sub(/^[^[:space:]]+[[:space:]]+(—[[:space:]]+)?/, "", rest)
-		# parse mm:ss or hh:mm:ss
-		n = split(ts, parts, ":")
-		if (n == 2) { sec = parts[1]*60 + parts[2] }
-		else if (n == 3) { sec = parts[1]*3600 + parts[2]*60 + parts[3] }
-		else { sec = 0 }
-		printf "<li data-t=\"%d\"><span class=\"ts\">%s</span><span>%s</span></li>\n", sec, ts, rest
+		sub(/^[^[:space:]]+[[:space:]]+((—|-)[[:space:]]+)?/, "", rest)
+		printf "<li><span class=\"ts\">%s</span><span>%s</span></li>\n", ts, rest
 	}
 ')
 
@@ -63,15 +61,14 @@ CONTENT=$(cat ./parts/mix.html)
 CONTENT=$(MIX_TITLE="$MIX_TITLE" \
 	MIX_DATE="$MIX_DATE" \
 	MIX_COVER="$MIX_COVER" \
-	MIX_AUDIO="$MIX_AUDIO" \
+	MIX_MIXCLOUD="$MIX_MIXCLOUD" \
 	MIX_DESCRIPTION="$DESCRIPTION_HTML" \
 	MIX_TRACKLIST="$TRACKLIST_HTML" \
-	MIX_RESEARCH="$RESEARCH_HTML" \
 	CONTENT="$CONTENT" \
 	python3 -c '
 import os
 c = os.environ["CONTENT"]
-for k in ["MIX_TITLE","MIX_DATE","MIX_COVER","MIX_AUDIO","MIX_DESCRIPTION","MIX_TRACKLIST","MIX_RESEARCH"]:
+for k in ["MIX_TITLE","MIX_DATE","MIX_COVER","MIX_MIXCLOUD","MIX_DESCRIPTION","MIX_TRACKLIST"]:
 	c = c.replace("★"+k+"★", os.environ[k])
 print(c)
 ')
