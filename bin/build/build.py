@@ -81,6 +81,13 @@ rule assemble-newsletters
 
 rule assemble-about
   command = ./bin/build/assemble-about.sh $out
+
+rule assemble-sitemap
+  command = ./bin/build/assemble-sitemap.sh $in $out
+
+# Phony target with no inputs: always out of date, so anything depending on it
+# is rebuilt every run (used for the sitemap, whose lastmod comes from git).
+build always-rebuild: phony
 """
 
 fifo_name = 'build.ninja'
@@ -188,6 +195,14 @@ try:
         build_ninja.write("build out/tmp/about/index.html: assemble-about | bin/build/assemble-about.sh bin/build/vars.sh parts/template.html parts/about.html\n")
         build_ninja.write("build out/tmp/about/index.min.html: minify-html out/tmp/about/index.html\n")
         build_ninja.write("build out/site/about/index.html: copy-file out/tmp/about/index.min.html\n")
+
+        sitemap_inputs = " ".join(
+            [f"entries/{e}" for e in entry_files]
+            + [f"mixes/{m}" for m in mix_files]
+            + [f"newsletters/{l}" for l in letter_files]
+        )
+        build_ninja.write(f"build out/tmp/sitemap.xml: assemble-sitemap {sitemap_inputs} | bin/build/assemble-sitemap.sh bin/build/vars.sh parts/about.html always-rebuild\n")
+        build_ninja.write("build out/site/sitemap.xml: copy-file out/tmp/sitemap.xml\n")
 
 
     process.wait()
