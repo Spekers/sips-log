@@ -26,7 +26,7 @@ The documentary was a lovely experience to get to meet the man I had until then 
 
 ---
 
-<iframe width="672" height="378" src="https://www.youtube-nocookie.com/embed/AXDscN2jBK4?si=c97gGSWssDArTuQu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="672" height="378" src="https://www.youtube-nocookie.com/embed/AXDscN2jBK4?si=c97gGSWssDArTuQu" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Now we get to why I had to write this article. His final work : *Opus*. Six months before his death, he and his team worked together to put on a final performance. An hour and a half of him playing some of his life's work alone on the piano. Watching it, you inevitably start noticing a lot of details. He looks thin, small and tired. You can hear his breathing coming through on the microphones. He had been struggling with his health for a long time and the whole project had to be filmed over a few days because of it. 
 
@@ -47,7 +47,7 @@ The camera slowly creeps up from filming his back to looking over his shoulder. 
 **Andata** 
 
 I have a bunch of thoughts on Andata. The piece comes from his nineteenth solo studio album *Async* and was the first full-length solo record after his recovery from throat cancer. Despite recovering from the disease in August 2015, Sakamoto thought *Async* would be his last album: "That’s why I tried to forget all the rules and forms, anything. I just wanted to put down just what I wanted to hear, just a sound or music, it doesn’t matter. This could be the last time."
-@sidenote: "[Ryuichi Sakamoto interview](https://web.archive.org/web/20220222124221/https://andybetacom.wordpress.com/2017/06/12/ryuichi-sakamoto-interview/)". Andy Beta Official Website
+@sidenote: "[Ryuichi Sakamoto interview](https://web.archive.org/web/20191115140906/https://andybeta.com/2017/06/12/ryuichi-sakamoto-interview/)". Andy Beta Official Website
 
 The original Andata is textured, electronic, hazy, and grows throughout the entire piece. It also has a distinct organ part, which I didn't think could be removed. The solo piano version from *Opus* has less grandeur, but it retains all the weight of the piece. With all the microphones, we also keep all the texture. The entire piece is sustained and sinks deeper and deeper. Andata was the only track made before Sakamoto's cancer diagnosis that appears on async. It is interesting to me that he kept it on the album when the rest lives in a different space to me. 
 

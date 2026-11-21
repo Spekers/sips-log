@@ -224,6 +224,10 @@ img {
     max-width: 100%;
 }
 
+iframe {
+    border: 0;
+}
+
 .sidenote,
 .marginnote {
     float: right;
