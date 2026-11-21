@@ -1,40 +1,40 @@
 ---
 {
-	"timezone": "CET",
-	"location": "Lausanne"
+    "timezone": "CET",
+    "location": "Lausanne"
 }
 ---
 # On Sakamoto's Opus
 
-[comment]: <TODO : add link to tribute mixtape>
+[comment]: <TODO: add link to tribute mixtape>
 
 @marginnote: <img src="/img/post/sakamoto/Ryuichi_Sakamoto_side.jpg" alt="Black and white picture of Ryuichi Sakamoto looking to the side"/>
 
-For the past few weeks, I've been going down the Ryuichi Sakamoto rabbit hole. I have gone through his albums, one by one, reading wikipedia page after wikipedia page trying to understand the full picture of this man. It started with me discovering "[Diabaram](https://youtu.be/19qDm_3ATJo)" a year ago now. There is just nothing like it. Which led me to Derrick's [introduction](https://youtu.be/r4Osxyp0fTY) where he puts him up there with a lot of greats. I thought, "I should check him out" and with every song I digested I got hungry for more. Which is why we are now here.
+For the past few weeks, I've been going down the Ryuichi Sakamoto rabbit hole. I have gone through his albums, one by one, reading Wikipedia page after Wikipedia page trying to understand the full picture of this man. It started with me discovering "[Diabaram](https://youtu.be/19qDm_3ATJo)" a year ago now. There is just nothing like it. Which led me to Derrick's [introduction](https://youtu.be/r4Osxyp0fTY) where he puts him up there with a lot of greats. I thought, "I should check him out" and with every song I digested I got hungry for more. Which is why we are now here.
 
-As a small summary, [Ryuichi Sakamoto](https://www.nts.live/shows/soup-to-nuts-anu/episodes/soup-to-nuts-w-anu-18th-january-2023) was a Japanese musician, composer, keyboardist, singer and actor. He studied at the Tokyo National University of Fine Arts and Music where he co-founded the synth-based band Yellow Magic Orchestra (YMO) with [Haruomi Hosono](https://www.nts.live/shows/soup-to-nuts-anu/episodes/soup-to-nuts-anu-22nd-september-2026) and [Yukihiro Takahashi](https://www.nts.live/shows/soup-to-nuts-anu/episodes/soup-to-nuts-anu-15th-february-2023). Together they pioneered a number of electronic music genres. He then went on as a solo artist. During the next 45 years, he released over 20 solo studio albums, 10+ live albums, several compilation albums, over 40 EPs and singles, and about 48 soundtracks. He has dabbled in  Classical, Electronic, ambient, avant-garde, electro, electro-pop, experimental, film score, glitch, minimal, synth-pop, techno and "world" music 
+As a small summary, [Ryuichi Sakamoto](https://www.nts.live/shows/soup-to-nuts-anu/episodes/soup-to-nuts-w-anu-18th-january-2023) was a Japanese musician, composer, keyboardist, singer, and actor. He studied at the Tokyo National University of Fine Arts and Music, where he co-founded the synth-based band Yellow Magic Orchestra (YMO) with [Haruomi Hosono](https://www.nts.live/shows/soup-to-nuts-anu/episodes/soup-to-nuts-anu-22nd-september-2026) and [Yukihiro Takahashi](https://www.nts.live/shows/soup-to-nuts-anu/episodes/soup-to-nuts-anu-15th-february-2023). Together, they pioneered a number of electronic music genres. He then went on as a solo artist. During the next 45 years, he released over 20 solo studio albums, 10+ live albums, several compilation albums, over 40 EPs and singles, and about 48 soundtracks. He has dabbled in  classical, electronic, ambient, avant-garde, electro, electro-pop, experimental, film score, glitch, minimal, synth-pop, techno, and "world" music 
 @sidenote: which he coined as neo-geo music
 .
 
-On top of being a creator of great renown, he also was a great curator with an excellent overview of the current musical world. You can read the whole [story](https://www.nytimes.com/2018/07/23/dining/restaurant-music-playlists-ryuichi-sakamoto.html) yourself, but he once hated the music in his favorite restaurant so much he forced the owner to let him curate the playlist himself. In that playlist you'll find so many unexpected finds from a man who was in his late 60s at that point. 
+On top of being a creator of great renown, he also was a great curator with an excellent overview of the current musical world. You can read the whole [story](https://www.nytimes.com/2018/07/23/dining/restaurant-music-playlists-ryuichi-sakamoto.html) yourself, but he once hated the music in his favourite restaurant so much that he forced the owner to let him curate the playlist himself. In that playlist, you'll find so many unexpected finds from a man who was in his late 60s at that point. 
 
 ---
 
-After going through most of his albums, I finally was able to get ahold of his documentary "Coda". The documentary was started following his activism against nuclear in japan but turned into a broader look at his life, his diagnosis with cancer, his passion for music and the creation of his album *async*. Through that documentary you not only see his passion for sound, where it comes from and how much joy he gets from recording one that fits with his creative vision, but he also explains his thoughts on nature. We all are only spending but a brief time on earth and using that time to take in our environment is just as important to being active. 
+After going through most of his albums, I finally was able to get ahold of his documentary "Coda". The documentary was started following his activism against nuclear in Japan but turned into a broader look at his life, his diagnosis with cancer, his passion for music, and the creation of his album *Async*. Through that documentary, you not only see his passion for sound, where it comes from, and how much joy he gets from recording one that fits with his creative vision, but he also explains his thoughts on nature. We all are only spending but a brief time on Earth, and using that time to take in our environment is just as important to being active. 
 
-The documentary was a lovely experience to get to meet the man I had until then only heard through music. Getting to see why he used the sounds that he did, and the creative decisions he took to make *async* gave the whole project even more importance to me.
+The documentary was a lovely experience to get to meet the man I had until then only heard through music. Getting to see why he used the sounds that he did, and the creative decisions he took to make *Async* gave the whole project even more importance to me.
 
 ---
 
 <iframe width="672" height="378" src="https://www.youtube-nocookie.com/embed/AXDscN2jBK4?si=c97gGSWssDArTuQu" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Now we get to why I had to write this article. His final work : *Opus*. Six months before his death, he and his team worked together to put on a final performance. An hour and a half of him playing some of his life's work alone on the piano. Watching it, you inevitably start noticing a lot of details. He looks thin, small and tired. You can hear his breathing coming through on the microphones. He had been struggling with his health for a long time and the whole project had to be filmed over a few days because of it. 
+Now we get to why I had to write this article. His final work: *Opus*. Six months before his death, he and his team worked together to put on a final performance. An hour and a half of him playing some of his life's work alone on the piano. Watching it, you inevitably start noticing a lot of details. He looks thin, small, and tired. You can hear his breathing coming through on the microphones. He had been struggling with his health for a long time, and the whole project had to be filmed over a few days because of it. 
 
-However, despite his health, the music does not suffer. As if to honor the songs themselves, you can tell he gives it his all to play them as best he can. I don't know if it pride, stubbornness or passion but while playing, he rarely loses composure. If you only listened, you almost wouldn't be able to tell how exhausted he must have been. Were it not for the moments in between the songs where he tells the crew he needs a break. Added to the fact that he plays his compositions slower than normal, either intensionally or because of his health, which underlines the finality of the movie.
+However, despite his health, the music does not suffer. As if to honour the songs themselves, you can tell he gives it his all to play them as best he can. I don't know if it’s pride, stubbornness, or passion, but while playing, he rarely loses composure. If you only listened, you almost wouldn't be able to tell how exhausted he must have been. Were it not for the moments in between the songs where he tells the crew he needs a break. Added to the fact that he plays his compositions slower than normal, either intentionally or because of his health, which underlines the finality of the movie.
 
 Some of the highlights I wanted to mention:
 
-**Lack of love**
+**Lack of Love**
 
 @marginnote: <img src="/img/post/sakamoto/LackOfLove.jpg" alt="Frame from the documentary Opus during the moment Sakamoto plays Lack of Love"/>
 
@@ -77,11 +77,11 @@ The last piece of the movie is his infamous "Merry Christmas, Mr Lawrence". Ryui
 
 @marginnote: <img src="/img/post/sakamoto/OpusEnding.jpg" alt="Frame from the documentary Opus during the moment Sakamoto plays Opus."/>
 
-This concludes my journey of going through this man's life. I hope my feelings of respect, admiration and passion for this man's work was able to reach any of you reading. Going through his interviews, documentaries, albums and collaborations, you see a man who's lived deeply. He never shied away from exploring new sounds, finding new horizons and has kept his curiosity for music up until the day he died. Be it in his own work or in his taste for everything else. 
+This concludes my journey of going through this man's life. I hope my feelings of respect, admiration, and passion for this man's work were able to reach any of you reading. Going through his interviews, documentaries, albums, and collaborations, you see a man who's lived deeply. He never shied away from exploring new sounds, finding new horizons, and has kept his curiosity for music up until the day he died. Be it in his own work or in his taste for everything else. 
 
-In *Coda*, Sakamoto shows his care for the future. He uses his voice to support activism and talks about Man's relationship with nature. You see him struggle with his treatment but refuses to let it kill his spirit. He composes the soundtrack to the award winning movie "The Revenant" despite being on hiatus, goes out of his way to fin a tsunami-damaged piano, tours the restricted containment zone near the Fukushima nuclear plant, journeys to the arctic to gathers raw and ambient sounds, all while recovering from throat cancer.
+In *Coda*, Sakamoto shows his care for the future. He uses his voice to support activism and talks about man’s relationship with nature. You see him struggle with his treatment but refuses to let it kill his spirit. He composes the soundtrack to the award-winning movie "The Revenant" despite being on hiatus, goes out of his way to find a tsunami-damaged piano, tours the restricted containment zone near the Fukushima nuclear plant, journeys to the Arctic to gather raw and ambient sounds, all while recovering from throat cancer.
 
-At the end of *Opus*, the camera stays fixed on the piano he was playing. We see the keys move, adn the music play, without Sakamoto being there to press them. Even with him gone, his legacy remains. 
+At the end of *Opus*, the camera stays fixed on the piano he was playing. We see the keys move, and the music play, without Sakamoto being there to press them. Even with him gone, his legacy remains. 
 
 > I honestly don't know how many years I have left. It could be twenty years, ten years, or a relapse reduces it to just one. I'm not taking anything for granted. But I know that I want to make more music. Music that I won't be ashamed to leave behind - meaningful work.
 <span style="float: right;">*— Ryuichi Sakamoto, Coda*</span>
@@ -90,4 +90,4 @@ At the end of *Opus*, the camera stays fixed on the piano he was playing. We see
 Ars longa, vita brevis
 </p>
 
-[comment]: <TODO : add review on biography>
+[comment]: <TODO: add review on biography>
